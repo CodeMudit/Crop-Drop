@@ -2,7 +2,7 @@ import requests
 import json
 from google.cloud import speech_v1p1beta1 as speech
 
-API_KEY = "AIzaSyCp4awTqgjl7hUfY_iecS-CbfG81_Aa784"
+API_KEY = "YOUR_API_KEY"
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={API_KEY}"
 
 SYSTEM_INSTRUCTION = {
@@ -94,4 +94,5 @@ def main():
         print("---")
 
 if __name__ == "__main__":
+
     main()
